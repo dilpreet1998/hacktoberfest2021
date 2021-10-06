@@ -1,0 +1,21 @@
+
+Public Class showform
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles gethide.Click
+        
+        Me.Show()
+        Hideform.Show()
+
+
+    End Sub
+End Class
+
+Public Class Hideform
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles getshow.Click
+        Me.Hide()
+        showform.Show()
+
+
+    End Sub
+End Class
